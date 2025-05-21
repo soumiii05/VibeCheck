@@ -1,21 +1,63 @@
-MIT License
 
-Copyright (c) 2025 soumiii05
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Project Overview
+Name: VibeCheck  
+Type: AI-powered internal tool  
+Timeframe:[e.g. June–July 2025]  
+Built With:Slack API, Python, Hugging Face, Supabase
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Problem
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Remote/hybrid teams lose visibility into how teammates are feeling. HR surveys are too slow or ignored. Emotional misalignment leads to silent burnout and turnover.
+
+Solution
+
+A Slack-based AI bot that checks in with teammates, analyzes sentiment and emotion, and sends weekly team summaries—non-intrusive, lightweight, and fully async.
+
+Research & Validation
+
+- Interviewed 4 remote team leads and 6 employees
+- Found that most didn’t like long HR surveys but appreciated brief, async check-ins
+- Privacy and emotional safety were top concerns
+
+
+MVP Scope
+
+- Slack command `/checkin`
+- Weekly DM check-in trigger
+- Sentiment + emotion analysis via Hugging Face
+- Summary report per team
+- Supabase for secure storage
+
+Key Results
+
+- MVP tested in a 6-person mock team  
+- 100% weekly response rate for 3 weeks  
+- Managers reported better pulse-check awareness  
+- 4/6 team members said it “made them feel heard”
+
+Future Iterations
+
+- Graphical dashboard with 4-week mood trends  
+- Manager alerts on mood decline  
+- Burnout risk detection  
+- Integration with other async tools (e.g. Notion, Google Calendar)
+
+Live Demo / Screenshots
+
+- [Slack message screenshots]
+- [Emotion trend graph mockup]
+- [Link to GitHub or deployed demo]
+
+
+What I Learned as a PM
+
+- How to define an MVP tightly scoped around a real pain point  
+- The balance between privacy and actionable insights in AI design  
+- How to communicate model outputs clearly and sensitively to non-technical users  
+- Importance of testing feature tone (e.g. not too clinical, not too informal)
+
+
+
+
+
